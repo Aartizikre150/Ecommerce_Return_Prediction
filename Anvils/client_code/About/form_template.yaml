@@ -1,0 +1,93 @@
+container:
+  type: ColumnPanel
+  properties: {role: null, tooltip: '', border: '', foreground: '', visible: true,
+    wrap_on: mobile, col_spacing: medium, spacing_above: none, col_widths: '{}', spacing_below: none,
+    background: ''}
+components:
+- type: ColumnPanel
+  properties: {role: card, tooltip: '', border: '', foreground: '', visible: true,
+    wrap_on: mobile, col_spacing: medium, spacing_above: none, col_widths: '{"VCINBD":27,"ZTRKNZ":6,"BTRUHL":27}',
+    spacing_below: none, background: ''}
+  name: card_1
+  layout_properties: {grid_position: 'UTXDOJ,EFORFK', full_width_row: true}
+  components:
+  - type: Label
+    properties: {role: subheading, align: center, tooltip: '', border: '', foreground: '',
+      visible: true, text: our story., font_size: null, font: '', spacing_above: small,
+      icon_align: left, spacing_below: small, italic: false, background: '', bold: false,
+      underline: false, icon: ''}
+    name: label_1
+    layout_properties: {grid_position: 'IXRSPJ,LCKLEE'}
+  - type: Spacer
+    properties: {height: 67}
+    name: spacer_2
+    layout_properties: {grid_position: 'RZRLXU,VCINBD FOBXXX,ZFXNCO'}
+  - type: Image
+    properties: {role: null, vertical_align: center, height: 238, tooltip: '', border: '',
+      foreground: '', visible: true, display_mode: zoom_to_fill, spacing_above: small,
+      source: _/theme/_1d94f583-195d-4dbb-85d6-f262bf47b1a9.jpg, spacing_below: small,
+      background: '', horizontal_align: center}
+    name: image_5
+    layout_properties: {grid_position: 'RZRLXU,VCINBD WCZQNC,CEQOOG'}
+  - type: Spacer
+    properties: {height: 81}
+    name: spacer_3
+    layout_properties: {grid_position: 'RZRLXU,VCINBD LETZNJ,AQXKEN'}
+  - type: Spacer
+    properties: {height: 32}
+    name: spacer_1
+    layout_properties: {grid_position: 'RZRLXU,ZTRKNZ'}
+  - type: Label
+    properties: {role: null, align: left, tooltip: '', border: '', foreground: 'theme:Primary
+        500', visible: true, text: Machine Leaning, font_size: 18, font: '', spacing_above: small,
+      icon_align: left, spacing_below: none, italic: true, background: '', bold: true,
+      underline: false, icon: ''}
+    name: label_13
+    layout_properties: {grid_position: 'RZRLXU,BTRUHL ZXKUXE,OVHOZH'}
+  - type: Label
+    properties: {role: null, align: left, tooltip: '', border: '', foreground: '',
+      visible: true, text: 'At ICT Ignite , we employ state-of-the-art machine learning
+        techniques, particularly Support Vector Machines (SVM), to predict whether
+        a particular product is likely to be returned or not. Our SVM module has been
+        trained on vast datasets of product purchase and return histories, enabling
+        it to discern patterns and factors that contribute to return likelihood. While
+        our model currently achieves an accuracy of approximately 51% with a recall
+        rate of 50%, we are committed to ongoing refinement and improvement to enhance
+        its predictive capabilities.', font_size: 16, font: '', spacing_above: none,
+      icon_align: left, spacing_below: small, italic: false, background: '', bold: false,
+      underline: false, icon: ''}
+    name: label_2
+    layout_properties: {grid_position: 'RZRLXU,BTRUHL ZSUMXK,GNAVIP'}
+- type: ColumnPanel
+  properties: {role: card, tooltip: '', border: '', foreground: '', visible: true,
+    wrap_on: mobile, col_spacing: medium, spacing_above: none, col_widths: '{}', spacing_below: none,
+    background: 'theme:Neutral'}
+  name: card_2
+  layout_properties: {grid_position: 'RXLMNX,RKIMVN', full_width_row: true}
+  components:
+  - type: Label
+    properties: {role: subheading, align: center, tooltip: '', border: '', foreground: 'theme:Primary
+        500', visible: true, text: 'Why we ?', font_size: null, font: '', spacing_above: small,
+      icon_align: left, spacing_below: small, italic: false, background: '', bold: false,
+      underline: false, icon: ''}
+    name: label_3
+    layout_properties: {grid_position: 'HAMMLC,XTTDOV'}
+  - type: Label
+    properties: {role: null, align: center, tooltip: '', border: '', foreground: '',
+      visible: true, text: 'We pride ourselves on being pioneers in the realm of predicting
+        product returns. We are the first-ever website dedicated to providing consumers
+        and retailers with insights into whether a product is likely to be returned
+        or not. By harnessing the power of machine learning and predictive analytics,
+        we empower both consumers and businesses to make informed decisions, thereby
+        minimizing returns, reducing costs, and optimizing customer satisfaction.
+
+
+        Our dedication to innovation, coupled with our commitment to transparency
+        and accuracy, sets us apart as the premier destination for predictive product
+        return analysis. Join us on our mission to revolutionize the way we approach
+        product purchasing and returns.', font_size: null, font: '', spacing_above: small,
+      icon_align: left, spacing_below: small, italic: false, background: '', bold: false,
+      underline: false, icon: ''}
+    name: label_7
+    layout_properties: {grid_position: ''}
+is_package: true

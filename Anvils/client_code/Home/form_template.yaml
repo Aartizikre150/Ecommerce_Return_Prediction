@@ -1,0 +1,367 @@
+container:
+  type: ColumnPanel
+  properties: {role: null, tooltip: '', border: '', foreground: '', visible: true,
+    wrap_on: mobile, col_spacing: medium, spacing_above: none, col_widths: '{}', spacing_below: none,
+    background: ''}
+components:
+- type: ColumnPanel
+  properties: {role: home-header, tooltip: '', border: '', foreground: '', visible: true,
+    wrap_on: mobile, col_spacing: medium, spacing_above: none, col_widths: '{"ZTLCPG":45}',
+    spacing_below: none, background: ''}
+  name: card_1
+  layout_properties: {grid_position: 'CRKCZC,KYISDW', full_width_row: true}
+  components:
+  - type: Spacer
+    properties: {visible: true, spacing_above: small, spacing_below: small, height: '190',
+      tooltip: ''}
+    name: spacer_1
+    layout_properties: {grid_position: 'KPOLRI,UIYPTE'}
+  - type: Label
+    properties: {role: headline, align: center, tooltip: '', border: '', foreground: '',
+      visible: true, text: Data Analytics for eCommerce Return Management, font_size: null,
+      font: '', spacing_above: small, icon_align: left, spacing_below: medium, italic: false,
+      background: '', bold: false, underline: false, icon: ''}
+    name: label_2
+    layout_properties: {grid_position: 'CRKAMI,ZTLCPG'}
+  - type: Label
+    properties: {role: null, align: center, tooltip: '', border: '', foreground: 'theme:White',
+      visible: true, text: Optimize return management processes and minimize costs by predicting returns and identifying return-prone product categories.,
+      font_size: 18, font: '', spacing_above: small, icon_align: left, spacing_below: small,
+      italic: false, background: '', bold: false, underline: false, icon: ''}
+    name: label_3
+    layout_properties: {grid_position: 'EWQZNX,ADVRHZ'}
+- type: ColumnPanel
+  properties: {role: null, tooltip: '', border: '', foreground: '', visible: true,
+    wrap_on: mobile, col_spacing: medium, spacing_above: none, col_widths: '{"DBGPGC":10,"TSYAIY":50}',
+    spacing_below: none, background: ''}
+  name: content_panel
+  layout_properties:
+    col_widths: {}
+    grid_position: QBPVWN,FDJDAK
+    full_width_row: true
+    row_background: theme:White
+  components:
+  - type: ColumnPanel
+    properties: {role: card, tooltip: '', border: '', foreground: '', visible: true,
+      wrap_on: mobile, col_spacing: medium, spacing_above: none, col_widths: '{}',
+      spacing_below: none, background: '#ffffff'}
+    name: card_2
+    layout_properties: {grid_position: 'YDEQKA,KOIBBY', full_width_row: true}
+    components:
+    - type: Label
+      properties: {role: subheading, align: center, tooltip: '', border: '', foreground: '',
+        visible: true, text: About Us, font_size: null, font: '', spacing_above: small,
+        icon_align: left, spacing_below: small, italic: false, background: '', bold: false,
+        underline: false, icon: ''}
+      name: label_4
+      layout_properties: {grid_position: 'JIBZDI,KZABZG'}
+    - type: Image
+      properties: {role: null, vertical_align: center, height: 200.33331298828125,
+        tooltip: '', border: '', foreground: '', visible: true, display_mode: fill_width,
+        spacing_above: small, source: _/theme/Banner.jpg, spacing_below: small, background: '',
+        horizontal_align: center}
+      name: image_1
+      layout_properties: {grid_position: 'VIMJNJ,PFRBHY'}
+    - type: Label
+      properties: {role: text, align: center, tooltip: '', border: '', foreground: '',
+        visible: true, text: Our Mission, font_size: null, font: '', spacing_above: small,
+        icon_align: left, spacing_below: small, italic: false, background: '', bold: false,
+        underline: false, icon: ''}
+      name: label_5
+      layout_properties: {grid_position: 'VIMJNJ,VAIYRP GTIVNR,BATZXT'}
+    - type: Label
+      properties: {role: null, align: center, tooltip: '', border: '', foreground: '',
+        visible: true, text: 'We''re here to simplify return management for eCommerce
+          by harnessing data analytics. Our platform offers actionable insights, optimizing
+          processes and enhancing customer satisfaction.
+
+          ', font_size: null, font: '', spacing_above: small, icon_align: left, spacing_below: small,
+        italic: false, background: '', bold: false, underline: false, icon: ''}
+      name: label_6
+      layout_properties: {grid_position: 'VIMJNJ,VAIYRP SYGHGU,OJNEJF'}
+    - type: Label
+      properties: {role: text, align: center, tooltip: '', border: '', foreground: '',
+        visible: true, text: How It Works, font_size: null, font: '', spacing_above: small,
+        icon_align: left, spacing_below: small, italic: false, background: '', bold: false,
+        underline: false, icon: ''}
+      name: label_7
+      layout_properties: {grid_position: 'VIMJNJ,VAIYRP LDMTOR,GTZABN'}
+    - type: Label
+      properties: {role: null, align: center, tooltip: '', border: '', foreground: '',
+        visible: true, text: 'Using our intuitive interface, users input product details.
+          Our algorithms analyze the data, predicting return likelihood. This empowers
+          retailers to make informed decisions swiftly, streamlining return management.',
+        font_size: null, font: '', spacing_above: small, icon_align: left, spacing_below: small,
+        italic: false, background: '', bold: false, underline: false, icon: ''}
+      name: label_8
+      layout_properties: {grid_position: 'VIMJNJ,VAIYRP KVCYIN,DPSVKF'}
+  - type: ColumnPanel
+    properties: {role: card, tooltip: '', border: '', foreground: '', visible: true,
+      wrap_on: mobile, col_spacing: medium, spacing_above: none, col_widths: '{}',
+      spacing_below: none, background: 'theme:Neutral'}
+    name: card_3
+    layout_properties: {grid_position: 'QGCDIF,QZTLQF', full_width_row: true, row_background: ''}
+    components:
+    - type: Label
+      properties: {role: subheading, align: center, tooltip: '', border: '', foreground: '',
+        visible: true, text: Let's Begin, font_size: null, font: '', spacing_above: small,
+        icon_align: left, spacing_below: small, italic: false, background: '', bold: false,
+        underline: false, icon: ''}
+      name: label_9
+      layout_properties: {grid_position: 'BKJBVW,HYABEJ'}
+    - type: Label
+      properties: {role: text, align: center, tooltip: '', border: '', foreground: '',
+        visible: true, text: Provide the information, font_size: null, font: '', spacing_above: small,
+        icon_align: left, spacing_below: small, italic: false, background: '', bold: false,
+        underline: false, icon: ''}
+      name: label_10
+      layout_properties: {grid_position: 'AAANPP,FBZEDZ YPIULJ,ZVZFRW'}
+    - type: Label
+      properties: {role: null, align: left, tooltip: '', border: '', foreground: '',
+        visible: true, text: Super Category, font_size: null, font: '', spacing_above: small,
+        icon_align: left, spacing_below: small, italic: false, background: '', bold: false,
+        underline: false, icon: ''}
+      name: label_12
+      layout_properties: {grid_position: 'AAANPP,FBZEDZ ELEPNU,CCYBMI'}
+    - name: super_category
+      properties:
+        items: [None, Automotive, 'Beauty, Health, Personal & Household Care', Electronics,
+          Fashion, Furniture, Media, 'Toys, Hobby & DIY']
+        placeholder: Please choose your super category
+      type: DropDown
+      layout_properties: {grid_position: 'AAANPP,FBZEDZ UZCHBF,BMPCFV'}
+      event_bindings: {change: super_category_change}
+    - name: label_1
+      properties: {text: Primary Category, visible: true}
+      type: Label
+      layout_properties: {grid_position: 'AAANPP,FBZEDZ ZYWEAH,RCZHZP'}
+    - name: primary_category
+      properties:
+        visible: true
+        enabled: true
+        placeholder: Choose your Primary Category.
+        items: [None]
+      type: DropDown
+      layout_properties: {grid_position: 'AAANPP,FBZEDZ EMSISI,AGDXIW'}
+      event_bindings: {change: primary_category_change}
+    - name: label_11
+      properties: {text: 'First Sub Category '}
+      type: Label
+      layout_properties: {grid_position: 'AAANPP,FBZEDZ ONTUFL,YETQYR'}
+    - name: sub_category1
+      properties:
+        placeholder: Choose your First Sub Category
+        items: [None]
+      type: DropDown
+      layout_properties: {grid_position: 'AAANPP,FBZEDZ FGANMQ,QUYQTA'}
+      event_bindings: {change: sub_category1_change}
+    - name: label_13
+      properties: {text: 'Second Sub Category '}
+      type: Label
+      layout_properties: {grid_position: 'AAANPP,FBZEDZ XRJSHP,PZQONO'}
+    - name: sub_category2
+      properties:
+        placeholder: Choose your Second Sub Category
+        items: [None]
+      type: DropDown
+      layout_properties: {grid_position: 'AAANPP,FBZEDZ NYFQZM,SGDOTA'}
+      event_bindings: {change: sub_category2_change}
+    - name: label_21
+      properties: {text: 'Brand '}
+      type: Label
+      layout_properties: {grid_position: 'AAANPP,FBZEDZ YQNFEL,QOAAQE'}
+    - name: brand
+      properties:
+        placeholder: Choose your Brand Category
+        items: [None]
+      type: DropDown
+      layout_properties: {grid_position: 'AAANPP,FBZEDZ BPPWBQ,IJQHAP'}
+      event_bindings: {change: brand_change}
+    - name: label_14
+      properties: {text: Product Name}
+      type: Label
+      layout_properties: {grid_position: 'AAANPP,FBZEDZ SQYYMB,URQWGX'}
+    - name: product_name
+      properties:
+        placeholder: Choose your Product Name Category
+        items: [None]
+      type: DropDown
+      layout_properties: {grid_position: 'AAANPP,FBZEDZ YJRCIP,FPFGNJ'}
+    - name: label_20
+      properties: {text: Price}
+      type: Label
+      layout_properties: {grid_position: 'AAANPP,FBZEDZ HSLBWO,PAWHGD'}
+    - name: discounted_price
+      properties: {}
+      type: TextBox
+      layout_properties: {grid_position: 'AAANPP,FBZEDZ RMFWVV,RRNDEG'}
+    - name: spacer_4
+      properties: {height: 21.33331298828125}
+      type: Spacer
+      layout_properties: {grid_position: 'AAANPP,FBZEDZ ZRHWKV,GSJKIP'}
+    - name: email
+      properties: {placeholder: Enter product name for receive mail}
+      type: TextBox
+      layout_properties: {grid_position: 'AAANPP,FBZEDZ RDUOLC,CJTNKW'}
+    - name: Submit
+      properties: {text: Submit, background: 'theme:Primary 500', foreground: 'theme:White'}
+      type: Button
+      layout_properties: {grid_position: 'AAANPP,FBZEDZ LEOLKO,PATYMD'}
+      event_bindings: {click: Submit_click}
+    - name: spacer_2
+      properties: {height: 71}
+      type: Spacer
+      layout_properties: {grid_position: 'AAANPP,YWSANX LPQPMU,CHYSYP'}
+    - type: Image
+      properties: {role: null, vertical_align: center, height: 296, tooltip: '', border: '',
+        foreground: '', visible: true, display_mode: zoom_to_fill, spacing_above: small,
+        source: _/theme/_1d94f583-195d-4dbb-85d6-f262bf47b1a9.jpg, spacing_below: small,
+        background: '', horizontal_align: center}
+      name: image_2
+      layout_properties: {grid_position: 'AAANPP,YWSANX RZWWKY,QXKPTV'}
+    - name: spacer_3
+      properties: {height: 32}
+      type: Spacer
+      layout_properties: {grid_position: 'AAANPP,YWSANX PXWIFX,BGIEXM'}
+    - name: result
+      properties: {visible: false}
+      type: Label
+      layout_properties: {grid_position: 'AAANPP,YWSANX VCSIXZ,VHZPOJ', row_background: 'theme:Primary
+          500'}
+    - name: spacer_5
+      properties: {height: 32}
+      type: Spacer
+      layout_properties: {grid_position: 'AAANPP,YWSANX XERRNC,AKUBKT'}
+    - name: disclaimer
+      properties: {text: 'Welcome to our prediction website! Please keep in mind that
+          the content provided here is based on predictions generated by a machine
+          learning model. While we strive for accuracy, these predictions are not
+          to be taken as definitive statements of reality. We are continually refining
+          and improving our model to enhance its predictive capabilities. Thank you
+          for visiting and exploring our predictions!', visible: false}
+      type: Label
+      layout_properties: {grid_position: 'AAANPP,YWSANX FFSKJB,CLRZQO'}
+  - type: ColumnPanel
+    properties: {role: card, tooltip: '', border: '', foreground: '', visible: true,
+      wrap_on: mobile, col_spacing: medium, spacing_above: none, col_widths: '{"MOQGVZ":67,"KEHJOF":50,"EYJOUZ":10,"IHXTJP":13,"PIPFWB":10,"BEIZGW":50,"FOUOMM":45,"LPBQPR":50,"PXVMIJ":10}',
+      spacing_below: none, background: ''}
+    name: card_4
+    layout_properties: {grid_position: 'AHYAHT,NUSCKH', full_width_row: true}
+    components:
+    - type: Label
+      properties: {role: subheading, align: center, tooltip: '', border: '', foreground: '',
+        visible: true, text: Who we are, font_size: null, font: '', spacing_above: small,
+        icon_align: left, spacing_below: small, italic: false, background: '', bold: false,
+        underline: false, icon: ''}
+      name: label_15
+      layout_properties: {grid_position: 'WLHPFA,KIEMDQ'}
+    - type: Image
+      properties: {role: null, vertical_align: top, height: 99, tooltip: '', border: '',
+        foreground: '', visible: true, display_mode: shrink_to_fit, spacing_above: small,
+        source: _/theme/Aarti-modified.png, spacing_below: small, background: '',
+        horizontal_align: left}
+      name: image_3
+      layout_properties: {grid_position: 'JNOSPQ,IHXTJP'}
+    - type: Label
+      properties: {role: null, align: left, tooltip: '', border: '', foreground: 'theme:Primary
+          500', visible: true, text: Aarti Anil Zikre, font_size: null, font: '',
+        spacing_above: small, icon_align: left, spacing_below: none, italic: false,
+        background: '', bold: false, underline: false, icon: ''}
+      name: label_16
+      layout_properties: {grid_position: 'JNOSPQ,MOQGVZ BSOMWZ,AWQQTU'}
+    - type: Label
+      properties: {role: null, align: left, tooltip: '', border: '', foreground: '',
+        visible: true, text: '"Analytically-driven data enthusiast with a penchant
+          for leveraging technology to unravel insights and drive strategic business
+          decisions."', font_size: null, font: '', spacing_above: none, icon_align: left,
+        spacing_below: small, italic: true, background: '', bold: false, underline: false,
+        icon: ''}
+      name: label_17
+      layout_properties: {grid_position: 'JNOSPQ,MOQGVZ UIIPHX,NBHCSI'}
+    - type: Label
+      properties: {role: null, align: right, tooltip: '', border: '', foreground: 'theme:Primary
+          500', visible: true, text: Andrews Truman, font_size: null, font: '', spacing_above: small,
+        icon_align: left, spacing_below: none, italic: false, background: '', bold: false,
+        underline: false, icon: ''}
+      name: label_18
+      layout_properties: {grid_position: 'KMHLNU,KEHJOF LSOSFO,VLKTUV'}
+    - type: Label
+      properties: {role: null, align: right, tooltip: '', border: '', foreground: '',
+        visible: true, text: '"Eager to tackle challenges head-on and deliver innovative
+          solutions with precision and determination."', font_size: null, font: '',
+        spacing_above: none, icon_align: left, spacing_below: small, italic: true,
+        background: '', bold: false, underline: false, icon: ''}
+      name: label_19
+      layout_properties: {grid_position: 'KMHLNU,KEHJOF MTRUJV,DNCLDR'}
+    - type: Image
+      properties: {role: null, vertical_align: top, height: 95.33331298828125, tooltip: '',
+        border: '', foreground: '', visible: true, display_mode: shrink_to_fit, spacing_above: small,
+        source: _/theme/andrews-modified.png, spacing_below: small, background: '',
+        horizontal_align: right}
+      name: image_4
+      layout_properties: {grid_position: 'KMHLNU,EYJOUZ'}
+    - name: image_3_copy
+      properties: {role: null, vertical_align: top, height: 99, tooltip: '', border: '',
+        foreground: '', visible: true, display_mode: shrink_to_fit, spacing_above: small,
+        source: _/theme/Prem-modified.png, spacing_below: small, background: '', horizontal_align: left}
+      type: Image
+      layout_properties: {grid_position: 'RTKSON,PIPFWB'}
+    - name: label_16_copy
+      properties: {role: null, align: left, tooltip: '', border: '', foreground: 'theme:Primary
+          500', visible: true, text: Prem Patel, font_size: null, font: '', spacing_above: small,
+        icon_align: left, spacing_below: none, italic: false, background: '', bold: false,
+        underline: false, icon: ''}
+      type: Label
+      layout_properties: {grid_position: 'RTKSON,BEIZGW PTBXSA,HUQARI'}
+    - name: label_17_copy
+      properties: {role: null, align: left, tooltip: '', border: '', foreground: '',
+        visible: true, text: '"A curious seeker of knowledge, always exploring new
+          ideas and engaging in thoughtful conversations."', font_size: null, font: '',
+        spacing_above: none, icon_align: left, spacing_below: small, italic: true,
+        background: '', bold: false, underline: false, icon: ''}
+      type: Label
+      layout_properties: {grid_position: 'RTKSON,BEIZGW VPXCOH,WYDUSO'}
+    - name: label_18_copy
+      properties: {role: null, align: right, tooltip: '', border: '', foreground: 'theme:Primary
+          500', visible: true, text: Vitthlesh Sheth, font_size: null, font: '', spacing_above: small,
+        icon_align: left, spacing_below: none, italic: false, background: '', bold: false,
+        underline: false, icon: ''}
+      type: Label
+      layout_properties: {grid_position: 'RTKSON,BEIZGW JSSDUH,LPBQPR XJEZTT,BDJFQV'}
+    - name: label_19_copy
+      properties: {role: null, align: right, tooltip: '', border: '', foreground: '',
+        visible: true, text: '"I''m a boundless well of knowledge and creativity,
+          ready to assist and inspire."', font_size: null, font: '', spacing_above: none,
+        icon_align: left, spacing_below: small, italic: true, background: '', bold: false,
+        underline: false, icon: ''}
+      type: Label
+      layout_properties: {grid_position: 'RTKSON,BEIZGW JSSDUH,LPBQPR EYSUYL,APJJFV'}
+    - name: image_4_copy
+      properties: {role: null, vertical_align: top, height: 95.33331298828125, tooltip: '',
+        border: '', foreground: '', visible: true, display_mode: shrink_to_fit, spacing_above: small,
+        source: _/theme/vitthalesh-modified.png, spacing_below: small, background: '',
+        horizontal_align: right}
+      type: Image
+      layout_properties: {grid_position: 'RTKSON,BEIZGW JSSDUH,PXVMIJ'}
+  - name: image_3_copy_2
+    properties: {role: null, vertical_align: top, height: 99, tooltip: '', border: '',
+      foreground: '', visible: true, display_mode: shrink_to_fit, spacing_above: small,
+      source: _/theme/roshan-modified.png, spacing_below: small, background: '', horizontal_align: left}
+    type: Image
+    layout_properties: {grid_position: 'MJTUPV,DBGPGC'}
+  - name: label_16_copy_2
+    properties: {role: null, align: left, tooltip: '', border: '', foreground: 'theme:Primary
+        500', visible: true, text: Roshan Khan, font_size: null, font: '', spacing_above: small,
+      icon_align: left, spacing_below: none, italic: false, background: '', bold: false,
+      underline: false, icon: ''}
+    type: Label
+    layout_properties: {grid_position: 'MJTUPV,TSYAIY RMDJRS,ALLPCH'}
+  - name: label_17_copy_2
+    properties: {role: null, align: left, tooltip: '', border: '', foreground: '',
+      visible: true, text: '"A curious mind who takes up problem solving as a hobby
+        and does a really nice sales pitch as well"', font_size: null, font: '', spacing_above: none,
+      icon_align: left, spacing_below: small, italic: true, background: '', bold: false,
+      underline: false, icon: ''}
+    type: Label
+    layout_properties: {grid_position: 'MJTUPV,TSYAIY VCSIJY,KQYEFL'}
+is_package: true
