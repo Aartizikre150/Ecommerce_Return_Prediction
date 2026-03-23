@@ -1,7 +1,18 @@
 # 📦 Ecommerce Return Prediction – ReturnPal
 
 <p align="center">
-  <img src="./project images/Banner.jpg" alt="Ecommerce Return Prediction" width="100%">
+  <a href="https://ict-ignite.anvil.app">
+    <img src="./project images/Banner.jpg" width="100%">
+  </a>
+</p>
+
+<p align="center" style="margin-top:-20px;">
+  <a href="https://ict-ignite.anvil.app">
+    <img src="https://img.shields.io/badge/🚀%20Live%20App-Anvil-blue?style=for-the-badge">
+  </a>
+  <a href="https://youtu.be/66e9IJGRQ1I?si=72ODYk_L6V0AQPEO">
+    <img src="https://img.shields.io/badge/▶%20Demo-YouTube-red?style=for-the-badge">
+  </a>
 </p>
 
 ---
@@ -92,3 +103,8 @@ Ecommerce returns cost retailers billions annually and generate significant **en
 ---
 
 ✨ *Predicting returns today for a more sustainable ecommerce tomorrow.*  
+
+
+
+
+
